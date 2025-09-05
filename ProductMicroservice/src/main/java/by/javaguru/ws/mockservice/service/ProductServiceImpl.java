@@ -1,7 +1,7 @@
-package by.javaguru.ws.productmicroservice.service;
+package by.javaguru.ws.mockservice.service;
 
 import by.javaguru.ws.core.ProductCreatedEvent;
-import by.javaguru.ws.productmicroservice.service.dto.CreateProductDto;
+import by.javaguru.ws.mockservice.service.dto.CreateProductDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
@@ -9,7 +9,6 @@ import org.springframework.kafka.support.SendResult;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
-import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
 @Service

@@ -1,4 +1,4 @@
-package by.javaguru.ws.productmicroservice;
+package by.javaguru.ws.mockservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
