@@ -1,4 +1,4 @@
-package by.javaguru.ws.productmicroservice.service.dto;
+package by.javaguru.ws.mockservice.service.dto;
 
 import java.math.BigDecimal;
 

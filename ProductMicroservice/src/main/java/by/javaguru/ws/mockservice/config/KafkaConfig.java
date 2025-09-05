@@ -1,4 +1,4 @@
-package by.javaguru.ws.productmicroservice.config;
+package by.javaguru.ws.mockservice.config;
 
 import by.javaguru.ws.core.ProductCreatedEvent;
 import org.apache.kafka.clients.admin.NewTopic;

@@ -1,6 +1,6 @@
-package by.javaguru.ws.productmicroservice.service;
+package by.javaguru.ws.mockservice.service;
 
-import by.javaguru.ws.productmicroservice.service.dto.CreateProductDto;
+import by.javaguru.ws.mockservice.service.dto.CreateProductDto;
 
 import java.util.concurrent.ExecutionException;
 

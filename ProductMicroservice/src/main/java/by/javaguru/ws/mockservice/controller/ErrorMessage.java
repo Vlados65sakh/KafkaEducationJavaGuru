@@ -1,4 +1,4 @@
-package by.javaguru.ws.productmicroservice.controller;
+package by.javaguru.ws.mockservice.controller;
 
 import java.util.Date;
 

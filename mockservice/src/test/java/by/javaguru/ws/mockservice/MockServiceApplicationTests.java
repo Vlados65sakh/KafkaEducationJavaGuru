@@ -1,10 +1,10 @@
-package by.javaguru.ws.productmicroservice;
+package by.javaguru.ws.mockservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProductMicroserviceApplicationTests {
+class MockServiceApplicationTests {
 
 	@Test
 	void contextLoads() {
