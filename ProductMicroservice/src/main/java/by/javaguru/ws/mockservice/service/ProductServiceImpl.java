@@ -2,6 +2,7 @@ package by.javaguru.ws.mockservice.service;
 
 import by.javaguru.ws.core.ProductCreatedEvent;
 import by.javaguru.ws.mockservice.service.dto.CreateProductDto;
+import org.apache.kafka.clients.producer.ProducerRecord;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
@@ -29,11 +30,19 @@ public class ProductServiceImpl implements ProductService {
         ProductCreatedEvent productCreatedEvent = new ProductCreatedEvent(productId, createProductDto.getTitle(),
                 createProductDto.getPrice(), createProductDto.getQuantity());
 
+        ProducerRecord<String, ProductCreatedEvent> record = new ProducerRecord<>(
+                "product-created-events-topic",
+                productId,
+                productCreatedEvent
+        );
+
+        record.headers().add("messageId", "UUID.randomUUID().toString()".getBytes());
+
         /**
          * Cинхронный код
          */
-        SendResult<String, ProductCreatedEvent>  result =
-                kafkaTemplate.send("product-created-events-topic", productId, productCreatedEvent).get();
+        SendResult<String, ProductCreatedEvent>  result = kafkaTemplate
+                .send(record).get();
 
 
         LOGGER.info("Topic: {}", result.getRecordMetadata().topic());
