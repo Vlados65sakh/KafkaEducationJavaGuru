@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="core" />
+        <module name="EmailNotificationMicroservice" />
+        <module name="DepositService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="EmailNotification" target="17" />
+      <module name="mockservice" target="17" />
+      <module name="ProductMicroservice" target="17" />
+      <module name="TransferService" target="17" />
+      <module name="WithdrawalService" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="DepositService" options="-parameters" />
+      <module name="EmailNotification" options="-parameters" />
+      <module name="EmailNotificationMicroservice" options="-parameters" />
+      <module name="ProductMicroservice" options="-parameters" />
+      <module name="core" options="-parameters" />
+      <module name="mockservice" options="-parameters" />
+    </option>
+  </component>
+</project>
