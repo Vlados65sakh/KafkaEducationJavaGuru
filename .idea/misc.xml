@@ -15,6 +15,13 @@
         <option value="$PROJECT_DIR$/kafka/ProductMicroservice/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-transactions/core/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-transactions/DepositService/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-to-21-lessons/core/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-transactions/mockservice/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-transactions/TransferService/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-transactions/WithdrawalService/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-to-21-lessons/EmailNotificationMicroservice/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-to-21-lessons/mockservice/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-to-21-lessons/ProductMicroservice/pom.xml" />
       </list>
     </option>
   </component>
