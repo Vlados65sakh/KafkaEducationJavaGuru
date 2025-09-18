@@ -8,16 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="core" />
         <module name="EmailNotificationMicroservice" />
+        <module name="WithdrawalService" />
+        <module name="mockservice (1)" />
+        <module name="TransferService" />
+        <module name="ProductMicroservice" />
         <module name="DepositService" />
+        <module name="core (1) (by.javaguru.ws)" />
+        <module name="mockservice" />
+        <module name="EmailNotification" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="EmailNotification" target="17" />
-      <module name="mockservice" target="17" />
-      <module name="ProductMicroservice" target="17" />
-      <module name="TransferService" target="17" />
-      <module name="WithdrawalService" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -25,8 +25,12 @@
       <module name="EmailNotification" options="-parameters" />
       <module name="EmailNotificationMicroservice" options="-parameters" />
       <module name="ProductMicroservice" options="-parameters" />
+      <module name="TransferService" options="-parameters" />
+      <module name="WithdrawalService" options="-parameters" />
       <module name="core" options="-parameters" />
+      <module name="core (1) (by.javaguru.ws)" options="-parameters" />
       <module name="mockservice" options="-parameters" />
+      <module name="mockservice (1)" options="-parameters" />
     </option>
   </component>
 </project>

@@ -10,7 +10,10 @@
     <file url="file://$PROJECT_DIR$/kafka-to-21-lessons/core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka-to-21-lessons/mockservice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka-transactions/DepositService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka-transactions/TransferService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka-transactions/WithdrawalService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka-transactions/core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka-transactions/mockservice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mockservice/src/main/java" charset="UTF-8" />
   </component>
 </project>
