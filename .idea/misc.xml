@@ -22,6 +22,10 @@
         <option value="$PROJECT_DIR$/kafka-to-21-lessons/EmailNotificationMicroservice/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-to-21-lessons/mockservice/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-to-21-lessons/ProductMicroservice/pom.xml" />
+        <option value="$PROJECT_DIR$/KafkaProductNotification/core/pom.xml" />
+        <option value="$PROJECT_DIR$/KafkaProductNotification/EmailNotificationMicroservice/pom.xml" />
+        <option value="$PROJECT_DIR$/KafkaProductNotification/mockservice/pom.xml" />
+        <option value="$PROJECT_DIR$/KafkaProductNotification/ProductMicroservice/pom.xml" />
       </list>
     </option>
   </component>
