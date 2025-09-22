@@ -6,27 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ProductMicroservice" />
+        <module name="DepositService" />
+        <module name="core (2) (by.javaguru.ws)" />
+        <module name="core (1) (by.javaguru.payments.ws)" />
+        <module name="EmailNotification" />
         <module name="core" />
         <module name="EmailNotificationMicroservice" />
+        <module name="mockservice (2)" />
         <module name="WithdrawalService" />
         <module name="mockservice (1)" />
         <module name="TransferService" />
-        <module name="ProductMicroservice" />
-        <module name="DepositService" />
         <module name="core (1) (by.javaguru.ws)" />
         <module name="mockservice" />
-        <module name="EmailNotification" />
-      </profile>
-      <profile name="Annotation profile for mockservice" enabled="true">
-        <sourceOutputDir name="../../kafka-to-21-lessons/mockservice/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../kafka-to-21-lessons/mockservice/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="mockservice (2)" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="mockservice" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -37,7 +31,9 @@
       <module name="TransferService" options="-parameters" />
       <module name="WithdrawalService" options="-parameters" />
       <module name="core" options="-parameters" />
+      <module name="core (1) (by.javaguru.payments.ws)" options="-parameters" />
       <module name="core (1) (by.javaguru.ws)" options="-parameters" />
+      <module name="core (2) (by.javaguru.ws)" options="-parameters" />
       <module name="mockservice" options="-parameters" />
       <module name="mockservice (1)" options="-parameters" />
       <module name="mockservice (2)" options="-parameters" />
